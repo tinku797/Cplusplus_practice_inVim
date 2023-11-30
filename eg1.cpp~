@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+namespace orange
+{
+int getValue()
+{
+return 100;
+}
+}
+
+namespace apple
+{
+int getValue()
+{
+return 100;
+}
+}
+
+int main()
+{
+printf("%d",getValue());
+return 0;
+}
+
+	
+
