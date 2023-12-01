@@ -4,7 +4,7 @@ namespace orange
 {
 int getValue()
 {
-return 100;
+return 3000;
 }
 }
 
@@ -12,13 +12,14 @@ namespace apple
 {
 int getValue()
 {
-return 100;
+return 1000;
 }
 }
 
 int main()
 {
-printf("%d",orange::getValue());
+printf("Orange's value is %d\n",orange::getValue());
+printf("Apple's value is %d",apple::getValue());
 return 0;
 }
 
