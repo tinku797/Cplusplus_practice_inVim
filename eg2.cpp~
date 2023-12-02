@@ -1,0 +1,9 @@
+#include <iostream>
+int main()
+{
+int a = 100;
+int &b = a;
+std::cout<<"The value of a is: "<<a<<endl;
+std::cout<<"The value of a using alias b is: "<<b;
+return 0;
+}
